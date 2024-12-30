@@ -1,6 +1,17 @@
 
 > Ouvrir cette page à [https://kassandros.github.io/microbit-extentions-tuto-github/](https://kassandros.github.io/microbit-extentions-tuto-github/)
 
+### ''plotAt''
+Utiliser le block plotAt qui permet d'allumer une LED de la matrice selon son index
+
+```blocks
+for(let i = 0; i < 25 ; ++i) {
+    screenMagic.plotAt(i);
+    basic.pause(500)
+}
+```
+
+
 ## Utiliser comme extension
 
 Ce dépôt peut être ajouté en tant qu'**extension** dans MakeCode.
